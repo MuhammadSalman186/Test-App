@@ -1,0 +1,351 @@
+Google Firebase is a valuable tool for developing mobile apps. But Firebase allows Google to collect your users' data in a variety of ways, and you are legally obliged to make your users aware of this.
+
+This article will explain all the information you need to include in your Firebase app Privacy Policy.
+
+1.
+Do I Need a Privacy Policy for My Firebase App?
+1.1.
+You Need a Privacy Policy Under Google's Terms
+1.2.
+You Need a Privacy Policy to Comply With Privacy Law
+2.
+How to Create a Privacy Policy for Your Firebase App
+2.1.
+Your Collection and Use of User Data
+2.2.
+Your Use of Google Services
+2.3.
+Your Use of Cookies
+2.4.
+Your Retention of User Data
+2.5.
+How to Opt Out of Google Analytics for Firebase
+2.6.
+How You Share Data
+2.7.
+How to Access, Modify, or Delete Data
+2.8.
+Your Privacy Policy's Effective Date
+2.9.
+"Do Not Track" Signals
+2.10.
+Other Requirements for Apps With EU Users
+3.
+Making Your Privacy Policy Accessible
+4.
+Summary
+
+Do I Need a Privacy Policy for My Firebase App?
+Yes, you need a Privacy Policy for your Firebase app. It's essential if you want to comply with Google's terms, and with privacy laws worldwide.
+
+You Need a Privacy Policy Under Google's Terms
+Several Firebase products collect personal information from your users. For example:
+
+Account information
+Information about a user's device
+Android Ad ID or Apple Identifier for Advertisers (IFDA)
+App usage data
+Any other personal information you request via your app (e.g. location, name, email address)
+It's really important that you disclose all of this to your users.
+
+Before you start using Firebase, you have to agree to Google's terms. There are several different legally-binding agreements, and they impose a lot of obligations on developers.
+
+Here's an example, from the Google Analytics for Firebase Terms:
+
+Google Analytics for Firebase Terms: Privacy clause
+
+This section of the Google Analytics for Firebase Terms states that you must:
+
+Abide by all relevant privacy laws
+Have a legally-compliant Privacy Policy
+Disclose that you use Google Analytics for Firebase
+Provide notice of how your app uses cookies
+If legally required to do so, make "commercially reasonable efforts" to:
+
+Ensure your users are provided with information about cookies
+Obtain your users' consent for your use of cookies
+Furthermore, the Google Analytics for Firebase Use Terms requires the following information be disclosed:
+
+Google Analytics for Firebase Terms: Required to Disclose the following clause
+
+This agreement states that your Privacy Policy must disclose:
+
+Which Google Analytics for Firebase features you use
+How you use first and third-party cookies and identifiers
+How your users can opt out of analytics
+Here's another example, from Firebase Crashlytics and App Distribution Terms:
+
+Firebase Crashlytics and App Distribution Terms: Privacy Policy is required clause
+
+This means that, if you use Firebase Crashlytics, you must maintain a Privacy Policy:
+
+That is accessible from within your app
+That describes what data your app collects
+That explains:
+
+How you share data with Google and other third parties
+How your app tracks your users' activity and collects their information
+Even once you've built your app, you won't be able to distribute it unless you've created a Privacy Policy.
+
+Our Privacy Policy Generator makes it easy to create a Privacy Policy for your website. Just follow these steps:
+
+Click on the "Privacy Policy Generator" button.
+At Step 1, select the Website option and click "Next step":
+TermsFeed Privacy Policy Generator: Create Privacy Policy - Step 1
+
+Answer the questions about your website and click "Next step" when finished:
+TermsFeed Privacy Policy Generator: Answer questions about website - Step 2
+
+Answer the questions about your business practices and click "Next step" when finished:
+TermsFeed Privacy Policy Generator: Answer questions about business practices  - Step 3
+
+Enter your email address where you'd like your policy sent, select translation versions and click "Generate."
+
+TermsFeed Privacy Policy Generator: Enter your email address - Step 4
+
+You'll be able to instantly access and download your new Privacy Policy.
+
+Take look at this section of the Google Play Developer Distribution Agreement:
+
+Google Play Developer Distribution Agreement: Privacy notice requirement clause
+
+This means that before Google will host your app in the Google Play Store, you must provide a "legally adequate" Privacy Policy that informs your users of how your app uses their account data and other personal information.bg-info
+
+For more information, see our information about Privacy Policies for Android apps.
+
+And under Apple's App Store Review Guidelines, you can't even submit your app to the App Store unless you provide a Privacy Policy:
+
+Apple App Store Review Guidelines: Clause for Data Collection and Storage
+
+To be eligible for a place in the App Store, your iOS app Privacy Policy must:
+
+Identify what data your app collects, and explain how and why your app collects that data
+Confirm that any third parties with whom you share data have adequate privacy protections in place
+Explain how you retain and delete user data
+Explain how your users can withdraw consent for your collection of their data, or request that you delete their data
+For more information, see our article Privacy Policy for iOS Apps.
+
+You Need a Privacy Policy to Comply With Privacy Law
+You Need a Privacy Policy to Comply With Privacy Law
+
+In addition to all these legally-binding agreements, app developers are subject to privacy laws that require them to create and display a Privacy Policy.
+
+Depending on where your users are based, you may have to comply with one or more of the following privacy laws:
+
+United States: The California Online Privacy Protection Act (CalOPPA) requires all operators of commercial websites and apps to maintain a Privacy Policy. It applies to any website or mobile app available in California.
+European Union: The General Data Protection Regulation (GDPR) applies to all app developers. The GDPR is a particularly strict and extensive law. Because of the way Firebase collects and uses data, there are some additional requirements for developers with users in the EU.
+United Kingdom: The UK continues to follow EU privacy law, and so developers with users in the UK will need to comply with the GDPR.
+Canada: The Personal Information Processing and Electronic Documents Act (PIPEDA) applies to all private sector businesses, of any size.
+Every major economy has privacy laws. Remember that you may have to comply with several of these laws if your app is available in multiple regions.
+
+Our guide to privacy laws by country can help you out.
+
+How to Create a Privacy Policy for Your Firebase App
+How to Create a Privacy Policy for Your Firebase App
+
+Now we're going to take you through all the information you need to include in a Privacy Policy for Firebase.
+
+First, we'll cover the basic information required under Google's terms and under most privacy laws, including the California Online Privacy Protection Act (CalOPPA). Then there's some additional information you'll need to provide if you have users in the EU.
+
+Your Collection and Use of User Data
+Your Privacy Policy must explain how and why you collect user data through your app.
+
+We're using the term "user data" here, as opposed to "personal information" or "personal data." Your Privacy Policy should disclose all the data you collect from users, whether you believe it is personal information or not.
+
+Below we've summarized how some popular Firebase services collect and use user data:
+
+Cloud Functions for Firebase: Collects a user's IP address for event-handling and HTTP functions
+Firebase Authentication: Can collect a user's password, email address, phone number, user agent, and IP address for authentication purposes
+Firebase Cloud Messaging: Collects Instance IDs to determine which device to send a message to
+Firebase Crash Reporting: Collects crash traces and instances IDs for diagnostic purposes
+Firebase Crashlytics: The latest version collects a user's installation UUID and IP address, older versions collect other types of data (more information here)
+Firebase Dynamic Links: Collects an iOS user's device specs to open apps to a specific web page
+Firebase Hosting: Collects IP addresses for security and diagnostic purposes
+Firebase Performance Monitoring: Collects a user's instance ID and IP address to monitor resource access and map performance events
+Firebase Predictions: Collects instance IDs to help predict customer-specified events
+Firebase Realtime Database: Collects a user's IP address and user agent to identify usage trends
+Firebase Remote Config: Collects instance IDs for saving user-specific settings
+Google Analytics for Firebase: Can collect a user's mobile ad ID, IDfV ID (iOS) or Android ID, instance ID, and Analytics app instance ID for analytics purposes
+ML Kit for Firebase: Can collect a user's uploaded images and instance ID for use with Vision API
+You will collect and use different types of data depending on which of these Google services you use.
+
+Here's how Termius explains the types of data its app collects:
+
+Termius Privacy Policy: Usage Data clause
+
+Later on, Termius explains how it uses this data. We've underlined the points that are most relevant to Firebase services:
+
+Termius Privacy Policy: Use of data clause
+
+Your Use of Google Services
+You must disclose which Google/Firebase services you use.
+
+Google suggests that you use your Privacy Policy to link your users to a particular Google web page providing more information, located here.
+
+Here's how Up Hotel Agency integrates this information into its Privacy Policy:
+
+Up Hotel Agency Privacy Policy: Disclosure of your information to other third parties clause - Google link highlighted
+
+You also need to identify each Firebase service that you employ in your app.
+
+Here's an example from the Privacy Policy of an app built using Firebase, KnowDrugs:
+
+KnowDrugs Privacy Policy: Google Firebase clause
+
+Note how KnowDrugs breaks down the individual Firebase services it uses and describes the data collected by each.
+
+Blackbox takes a different approach in its Privacy Policy:
+
+Blackbox Privacy Policy: Infrastructure monitoring and Managing contacts and sending messages clauses - Firebase sections
+
+Blackbox organizes its Privacy Policy by listing the purposes for which it collects user data. Then it identifies the service responsible for collecting that data, together with the types of data the service collects.
+
+Your Use of Cookies
+Firebase uses cookies through several different services and for numerous purposes. Google requires that you disclose how you use cookies.
+
+You must present this information in your Privacy Policy, but there are several approaches you can take to this. There is usually some overlap between this section and the previous two sections.
+
+Here's how YourMD explains the way Firebase Authentication service uses cookies:
+
+YourMD Cookie Policy: Firebase Authentication clause
+
+Here's another approach from Fika:
+
+Fika Cookie and Tracking Policy: Third party cookies and other tracking technologies clause excerpt
+
+Fika operates a website and an app. It lists the first- and third-party cookies it uses in a separate Cookies Policy. Google Analytics for Firebase appears among a list of several service providers using third-party cookies.
+
+If you use a targeted advertising service such as Google AdMob, you'll need to disclose the cookies you use for targeted advertising.
+
+For more information, see our article Privacy Policy for AdMob.
+
+Your Retention of User Data
+You should disclose how long you retain (store) user data, and/or how long Google and other companies retain user data on your behalf.
+
+Google provides information about how long it retains different types of user data collected via various Firebase services in its document, Privacy and Security in Firebase.
+
+You should let users know how long the various services you use will retain their data. This is a requirement under certain privacy laws and also a requirement of the Apple App Store Review Guidelines.
+
+Here's an example from MealsUp:
+
+MealsUp Privacy Policy: Firebase Realtime Database clause
+
+Note that you may collect other personal information directly from users, such as their name or email address. You should not store this for longer than necessary, and you should also disclose how long you will retain these other types of data in your Privacy Policy.
+
+How to Opt Out of Google Analytics for Firebase
+Google requires that you notify your users about how to opt out of Google Analytics for Firebase.
+
+Google provides some information about how to integrate opt-out controls in your Firebase app on its page, Configure Analytics Data Collection and Usage.
+
+Here's an example of a Firebase opt-out mechanism from the "Privacy Settings" menu of The Guardian's mobile app:
+
+The Guardian app Privacy Settings: Google Analytics setting highlighted
+
+You don't need to explain in detail how to opt out of Google Analytics in your Privacy Policy, you can just make users aware that it is possible to do so.
+
+Here's an example from Soloslides:
+
+Soloslides Privacy Policy: Google Analytics clause
+
+How You Share Data
+In addition to disclosing which Google services you use, you must also disclose how you share user data with any other third parties.
+
+This is most likely to be relevant if you operate your app for business purposes, in which case you probably share personal information with third parties such as:
+
+Payment processors
+Marketing companies
+Shipping companies
+In each case, you should identify the type and/or the name of the third party with whom you share personal information, and also the reasons for which you share personal information with that third party.
+
+Here's an example from Inne:
+
+Inne Privacy Policy: Vendors consultants and other third-party service providers clause
+
+How to Access, Modify, or Delete Data
+If you offer your users a means by which to access, modify, or delete their data, you must explain this process in your Privacy Policy.
+
+Note that if you have users in the UK or EU, you must provide a mechanism that allows your users to control their data.
+
+For more information, see our article Eight User Rights Under the GDPR.
+
+Here's an example from App in the Air:
+
+App in the Air Privacy Policy: Your choices and rights with respect to personal data clause
+
+Note that the first paragraph, which we've underlined, would be enough to comply with California's CalOPPA privacy law. The latter two paragraphs are included to comply with the EU GDPR.
+
+Your Privacy Policy's Effective Date
+You should provide you Privacy Policy's "effective date," meaning the date you published the most recent version.
+
+Most companies do this at the top of their Privacy Policy along with an introduction to their company.
+
+Here's an example from First Light Games:
+
+First Light Games Privacy Policy: Effective date
+
+"Do Not Track" Signals
+CalOPPA requires "operators of commercial websites" to disclose how they treat "Do Not Track" signals from browsers.
+
+While mobile apps are considered "commercial websites" for the purposes of CalOPPA, this particular provision only applies if you operate a website alongside your Firebase app.
+
+For more information, see our article Do Not Track for Privacy Policy.
+
+Other Requirements for Apps With EU Users
+There are more rigorous requirements if you have users based in the EU, the UK, or the wider European Economic Area (EEA).
+
+First, you should take a look at Google's EU User Consent Policy. This requires that you use Google's Consent SDK, or another similar mechanism, to earn the consent of your users before you can place cookies on their device.
+
+Here's an example of how such a consent request looks, from The Met Office app:
+
+Met Office app: Relevant ads consent screen
+
+You also need to provide some extra information in your Privacy Policy in order to comply with the GDPR. This includes:
+
+Contact details for the "data controller" (you/your business)
+Your lawful basis for processing personal information
+Information about your users' rights under the GDPR
+Contact details for your Data Protection Authority and notification of the right to make a complaint
+The relevant safeguards you use in order to transfer personal information to countries outside of the EU
+We won't go into detail about these concepts here. For more information, see our article GDPR Privacy Policy. However, it's worth explaining the last point about international transfers of personal data, as it is particularly relevant to Firebase users.
+
+You need to put safeguards in place to transfer personal information out of the EU. Certain Firebase services transfer your users' data to Google's servers in the US. There is a safeguard in place for this, as Google participates in the EU-US Privacy Shield.
+
+In your Privacy Policy, you need to notify your users that Google is a Privacy Shield participant.
+
+Here's an example from Incogny:
+
+Incogny Privacy Policy: Privacy Policy for Deployment and Use of Google Admob - Privacy Shield section highlighted
+
+These are the key clauses you'll need for your Privacy Policy for Firebase.
+
+Making Your Privacy Policy Accessible
+Once you have created your Privacy Policy, it must be accessible from within your app (and via your website, if you have one).
+
+You should allow users to access your Privacy Policy in all of the following situations (if they apply to your app):
+
+When setting up the app
+When creating an account
+Within your "Settings" or "About" menu
+When collecting personal information, e.g. when requesting an email address or taking payments
+Here's an example from the account creation screen of the TikTok app:
+
+TikTok app sign-up screen with Privacy Policy link highlighted
+
+TikTok also makes its Privacy Policy available in the app's "Privacy and Setting" menu:
+
+TikTok app Privacy and Settings menu: Privacy Policy highlighted
+
+Summary
+Creating a Privacy Policy is essential to comply with Google's terms, avoid legal trouble, and ensure you can distribute your app.
+
+A basic Firebase app Privacy Policy that will comply with most US states' privacy laws should include:
+
+How and why you collect user data, and what user data you collect
+Which Google services you use
+How you use cookies
+How long you retain user data
+How to opt out of Google Analytics for Firebase
+How you share data with other third parties in addition to Google
+How users can access, modify, or delete their data
+Your Privacy Policy's effective date
+How your website responds to "Do Not Track" signals (if applicable)
